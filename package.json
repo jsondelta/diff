@@ -1,0 +1,48 @@
+{
+  "name": "@jsondelta/diff",
+  "version": "1.0.0",
+  "description": "Zig-powered structural JSON diffing with SIMD acceleration",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./fallback": {
+      "types": "./types/fallback.d.ts",
+      "default": "./src/fallback.js"
+    },
+    "./wasm": {
+      "types": "./types/wasm.d.ts",
+      "default": "./src/wasm.js"
+    },
+    "./native": {
+      "types": "./types/native.d.ts",
+      "default": "./src/native.js"
+    }
+  },
+  "files": [
+    "src",
+    "wasm",
+    "types"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "prepublishOnly": "npx tsc --declaration --allowJs --emitDeclarationOnly --skipLibCheck --target es2020 --module nodenext --moduleResolution nodenext --strict false --esModuleInterop true --outDir ./types src/index.js src/fallback.js src/wasm.js src/native.js"
+  },
+  "keywords": [
+    "json",
+    "diff",
+    "delta",
+    "zig",
+    "wasm",
+    "performance"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsondelta/diff.git"
+  }
+}
