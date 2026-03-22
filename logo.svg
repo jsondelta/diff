@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="128" height="128">
+  <rect width="256" height="256" rx="16" fill="#111"/>
+  <rect x="40" y="32" width="120" height="160" rx="8" fill="#1a1a1a" stroke="#555" stroke-width="2.5"/>
+  <rect x="96" y="64" width="120" height="160" rx="8" fill="#1a1a1a" stroke="#555" stroke-width="2.5"/>
+  <rect x="56" y="52" width="60" height="6" rx="3" fill="#555"/>
+  <rect x="56" y="66" width="45" height="6" rx="3" fill="#555"/>
+  <rect x="56" y="80" width="72" height="6" rx="3" fill="#f72585"/>
+  <rect x="56" y="94" width="50" height="6" rx="3" fill="#555"/>
+  <rect x="56" y="108" width="65" height="6" rx="3" fill="#555"/>
+  <rect x="112" y="84" width="60" height="6" rx="3" fill="#555"/>
+  <rect x="112" y="98" width="45" height="6" rx="3" fill="#555"/>
+  <rect x="112" y="112" width="72" height="6" rx="3" fill="#4cc9f0"/>
+  <rect x="112" y="126" width="50" height="6" rx="3" fill="#555"/>
+  <rect x="112" y="140" width="65" height="6" rx="3" fill="#555"/>
+  <line x1="128" y1="196" x2="128" y2="236" stroke="#f4a261" stroke-width="3" stroke-linecap="round"/>
+  <polyline points="118,228 128,240 138,228" fill="none" stroke="#f4a261" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
