@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: 22
           registry-url: https://registry.npmjs.org
-      - uses: mlugg/setup-zig@v1
+      - uses: mlugg/setup-zig@v2
         with:
           version: 0.15.1
       - run: make build
